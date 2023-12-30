@@ -1,0 +1,15 @@
+/* styles.css */
+
+/* Style for both mobile and web */
+.img-common {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Media query for mobile devices with a max-width of 767px */
+@media (max-width: 767px) {
+  .img-common {
+    /* Additional styles for mobile */
+  }
+}
